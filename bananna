@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background:pink;
+  position: relative;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+
+css
+
+
+
+let interval = 0
+let n = 40
+function map(x, in_min, in_max, out_min, out_max) {
+  return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+}
+function calculateBananaPosition(phase) {
+  return [
+    10 + map(Math.sin(phase*3), -1, 1, 0, 80),
+    10 + map(Math.cos(phase*2.3), -1, 1, 0, 80)
+  ]
+}
+function getBanana(phase) {
+  let [x, y] = calculateBananaPosition(phase)
+  let b = document.createElement('span')
+  b.style.position = 'absolute'
+  b.style.top = `${y}%`
+  b.style.left = `${x}%`
+  b.innerText = `🍌`
+  return b
+}
+window.onload = function() {
+  let bananas = []
+  for (let i = 0; i < n; i++) {
+    bananas.push(
+      getBanana(map(i, 0, n-1, 0, 2*Math.PI))
+    )
+    document.body.appendChild(bananas[i])
+  }
+  
+  interval = setInterval(function() {
+    for (let i = 0; i < bananas.length; i++) {
+      let el = bananas[i]
+      let [x, y] = calculateBananaPosition(Date.now()/5000 + i/40)
+       el.style.top = `${y}%`
+       el.style.left = `${x}%`
+    }
+  }, 5)
+}
+
+
+
+js
