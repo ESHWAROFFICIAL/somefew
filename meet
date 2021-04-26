@@ -1,0 +1,63 @@
+<h1>Meet
+<p>What is Google Meet. Google is making enterprise-grade video conferencing available to everyone. Now, anyone with a Google Account can create an online meeting with up to 100 participants and meet for up to 60 minutes per meeting.Google Meet is a video-communication service developed by Google. It is one of two apps that constitute the replacement for Google Hangouts, the other being Google Chat. Google planned to begin retiring Google Hangouts in October 2019. Wikipedia
+  <br> </br>
+Developed by: Google
+<br>
+Platforms: Android, iOS, World Wide Web
+<br></br>
+Google Meet (formerly known as Hangouts Meet) is a video-communication service developed by Google. It is one of two apps that constitute the replacement for Google Hangouts, the other being Google Chat. Google planned to begin retiring Google Hangouts in October 2019.</p>
+<p>After being invite-only and quietly releasing an iOS app[3] in February 2017, Google formally launched Meet in March 2017.[4] The service was unveiled as a video conferencing app for up to 30 participants,
+ described as an enterprise-friendly version of Hangouts. It has launched with a web app, an Android app, and an iOS app. Features for G Suite users include:
+
+Up to 100 members per call for G Suite Basic users, up to 150 for G Suite Business users, and up to 250 for G Suite Enterprise users[5][6]
+Ability to join meetings from the web or through the Android or iOS app
+Ability to call into meetings with a dial-in number[5]
+Password-protected dial-in numbers for G Suite Enterprise edition users
+Integration with Google Calendar for one-click meeting calls
+Screen-sharing to present documents, spreadsheets, or presentations[5]
+Encrypted calls between all users[5]
+Real-time closed captioning based on speech recognition
+Free users have some further limitations:
+Meetings (after March 2021) are limited to 60 minutes.[7]
+All participants must have a Google account.[7]
+While Google Meet introduced the above features to upgrade the original Hangouts application, some standard Hangouts features were deprecated, including viewing attendees and chat simultaneously. The number of video feeds allowed at one time was also reduced to 8 (while up to 4 feeds can be shown in a "tiles" layout), prioritizing those attendees who most recently used their microphone. Additionally features such as the chat box were changed to overlay the video feeds, rather than resizing the latter to fit.
+
+Free access
+In March 2020, Google began offering Meet's advanced features that previously required an enterprise account to anyone using G Suite or G Suite for Education until September 2020, as well as offering access to the service to personal Google accounts for the first time.[8] The use of Meet grew by a factor of 30 between January and April of 2020, with 100 million users a day accessing Meet, compared to 200 million daily uses for Zoom as of the last week of April 2020.[9][10][11]
+
+Free Meet calls can only have a single host and up to 100 participants, compared to the 250-caller limit for G Suite users[12][13] and the 25-participant limit for Hangouts.[14] Unlike business calls with Meet, consumer calls are not recorded and stored and the company states that consumer data from Meet will not be used for advertisement targeting.[15] While call data is reportedly not being used for advertising purposes, based on an analysis of Meet's privacy policy, Google reserves the right to collect data on call duration, who is participating, and participants' IP addresses.[16]
+
+Users need a Google account to initiate calls[17] and like G Suite users, anyone with a Google account is able to start a Meet call from within Gmail.[18][19] Free meet calls have no time limit, but are limited to 60 minutes[dubious – discuss]. For security reasons, hosts can deny entry and remove users during a call.[13] As of April 2020, Google plans to roll out a noise cancelling audio filter and a low-light mode.[20][21]
+
+Google Meet uses proprietary protocols for video, audio and data transcoding. However, Google has partnered with the company Pexip to provide interoperability between Google Meet and SIP/H.323-based conferencing equipment and software.[22]
+<img src="https://d2u4q3iydaupsp.cloudfront.net/PynMn3HMT7xi1K8zinOePKFL4EIBlDwSu1gT6MRWImC6KSIvyEnlehOwjLRMcd4DVYyaHLWjSKpJ4lyS6aSazQ79eGmThCZsJq3hI1w8cOP4BUIc7lzuRTxTMme2zbYO">
+Hardware
+In May 2020, Asus unveiled videoconferencing hardware designed for use with Google Meet in conference room settings, which includes a "Meet Compute System" mini PC, and a dedicated camera and microphone.[23]
+
+On September 15, 2020, Google unveiled Meet Series One, in partnership with Lenovo, which includes a Meet Compute System with Edge TPU, "Smart Camera", "Smart Audio Bar" with noise reduction, and a choice of remote control or touchscreen that supports the Google Assistant.[24]
+
+Features
+All the G Suite customers can avail of the benefit of recording the meeting which its automatically stored on the drive. It is advisable to record after the consent of the attendees of the meeting.
+
+[25]
+
+See also
+Google Chat
+Google Duo
+Google Allo (discontinued)
+Google Messages
+Google Hangouts
+Google Talk (discontinued)</p>
+
+
+
+html
+
+
+body{
+  background-size:cover;
+  background-image:url("https://vignette.wikia.nocookie.net/google/images/f/f7/Google_Hangouts_Meet_icon.png/revision/latest/top-crop/width/360/height/450?cb=20200510051249")}
+
+
+
+css
