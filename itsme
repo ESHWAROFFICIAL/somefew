@@ -1,0 +1,26 @@
+
+
+
+
+<h1> My name is Eshwar.<br>
+ <p>I'm a<a
+            href="https://progradjunior.org/"> ProGrad Junior</a> 😎 </h1></p>
+            
+            
+            html
+            
+            
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+  background-image: linear-gradient(to right, #F50A5F, #5F27CD);
+  text-align:center;
+  font-family: 'Poppins', sans-serif;
+  color:white;
+}
+h1{
+  position:relative;
+  top:200px;
+}
+
+
+css
