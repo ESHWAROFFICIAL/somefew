@@ -1,0 +1,179 @@
+<header>
+  <h1 id="header">Traffic Signal </h1>
+</header>
+<div class="Traffic-signal">
+ 
+  <div class="road">
+      <div class="footpath">
+        <div id="left"></div>
+        <div id="right"></div>
+      </div>
+    <div class="signal">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div id="leg"></div>
+    </div>
+    <div class="traffic-police">
+       <img src="https://res.cloudinary.com/pavie/image/upload/v1599199920/traffic-police.png" alt="No-image-found">
+    </div>
+    <div class="zebracross">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+</div>
+  <br>
+  <br>
+<div class="why-signal">
+<div>
+<h1>Importance Of Traffic signal</h1>
+<h2><strong>Traffic signals are designed to:  </strong></h2>
+<p>
+Ensure safe and orderly flow of traffic. <br>
+Protect pedestrians and vehicles at busy intersections.<br>
+Reduce the severity and frequency of accidents between vehicles entering intersections.
+  </p>
+</div>
+  
+ <div>
+ <h2><strong>What are the 3 Colours of Traffic light </strong></h2>
+   <p>🔴 🟢 🟠 </p>
+    <p>
+      <b>Red</b> means "stop,"  <br>
+      <b>Green</b> means "go,"  </br>
+      <b>Orange</b> means "hurry up." 
+    </p>
+  <div>
+    <h2>Do you know the reason behind Zebra crossing</h2>
+    <p>Zebra crossing is also known as a <b><em>pedestrian crossing</em></b> that is used in many countries worldwide and it is the oldest form of safe pedestrian crossing. Basically zebra crossings give the pedestrians some more rights.
+</p>
+  </div>
+  <footer>
+  <h3> ✨ Know Your Responsibility ✨ </h3>
+  </footer>
+</div>
+
+
+
+html
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+  background-color: #FFFFF0;
+  font-family: 'Poppins', sans-serif;
+  text-align:center;
+}
+#header{
+  font-size:3em;
+  text-shadow: 2px 2px 5px red;
+}
+h1{
+   text-shadow: 2px 2px 5px green;
+}
+h2{
+   text-shadow: 2px 2px 5px orange;
+}
+.road{
+  box-shadow: 10px 10px 5px grey;
+  position:absolute;
+  left:10%;
+  width:1100px;
+  height:500px;
+  background:black;
+}
+.road:hover{
+  cursor:pointer;
+  transform:scale(1.1);
+}
+.footpath>#left{
+  position:absolute;
+  width:150px;
+  left:0.1px;
+  height:500px;
+  background-color:#D3D3D3;
+}
+.footpath>#right{
+  position:absolute;
+  right:-0.5px;
+  width:150px;
+  height:500px;
+  background-color:#D3D3D3;
+}
+.why-signal{
+  position:absolute;
+  top:110%;
+  margin: 15% 5%;
+  padding:5% 10%;
+  border-radius:20%; 
+}
+.signal{
+  position:relative;
+  top:20%;
+  left:3%;
+  width:60px;
+  height:150px;
+  background:black;
+  border-radius: 40%;
+}
+
+ .signal>div:nth-child(1){
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   margin: 0px 10px 10px 10px;
+  
+  }
+.signal>div:nth-child(2){
+    background-color: orange;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 10px 10px 10px;
+  }
+.signal>div:nth-child(3){
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   margin: 0px 10px 10px 10px;
+  }
+#leg{
+  position:absolute;
+  background:black;
+  width:10px;
+  height:200px;
+  top:99%;
+  left:42%;
+}
+img{
+  position:absolute;
+  top:48%;
+  left:0.11%;
+  width:20%;
+}
+
+.zebracross{
+    position: relative;
+    display: inline-flex;
+    top: -100px;
+    left: 100px;
+}
+
+.zebracross>div{
+  position: relative;
+  width: 100px;
+  height: 400px;
+  background-color:white; 
+  margin: 10px;
+}
+
+
+css
