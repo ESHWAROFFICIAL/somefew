@@ -1,0 +1,39 @@
+<h1>Movie of Year </h1>
+<h2> Aquaman</h2>
+<img src="https://heroichollywood.com/wp-content/uploads/2018/11/Aquaman_DC_Comics_Banner_Home.jpg">
+
+
+html
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@500&family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap");
+body {
+  background-image: url("https://cdn.wallpapersafari.com/43/17/2I8OXs.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 250%;
+  color: CornflowerBlue;
+}
+h2 {
+  text-align: center;
+  font-size: 180%;
+  color: GoldenRod;
+  font-family: "Lemonada", cursive;
+}
+img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:10px;
+}
+
+
+
+css
